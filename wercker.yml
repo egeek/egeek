@@ -7,10 +7,6 @@ build:
       code: |
         apt-get update
         apt-get install git -y
-    - script:
-      name: get theme submodules
-      code: |
-        git submodule update --init --recursive
     - arjen/hugo-build:
       version: "0.14"
       theme: herring-cove
