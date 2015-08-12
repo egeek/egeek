@@ -31,3 +31,5 @@ deploy:
         token: $GIT_TOKEN
         domain: egeek.co
         basedir: public   
+	repo: egeek.github.io
+
