@@ -1,7 +1,17 @@
-box: feaster83/java8-oracle
+box: debian
 
 build:
   steps:
+    - script:
+      name: install git
+      code: |
+        apt-get update
+        apg-get install git -y
+    - script:
+      name: get theme submodules
+      code: |
+        cd ..
+        git submodule update --init --recursive
     - arjen/hugo-build:
       version: "0.14"
       theme: herring-cove
