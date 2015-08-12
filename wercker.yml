@@ -1,4 +1,4 @@
-box: debian
+box: feaster83/java8-oracle@1.0.2
 
 build:
   steps:
