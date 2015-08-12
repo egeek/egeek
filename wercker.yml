@@ -10,7 +10,6 @@ build:
     - script:
       name: get theme submodules
       code: |
-        cd ..
         git submodule update --init --recursive
     - arjen/hugo-build:
       version: "0.14"
