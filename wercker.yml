@@ -6,7 +6,7 @@ build:
       name: install git
       code: |
         apt-get update
-        apg-get install git -y
+        apt-get install git -y
     - script:
       name: get theme submodules
       code: |
