@@ -1,4 +1,4 @@
-box: feaster83/java8-oracle@1.0.2
+box: feaster83/java8-oracle
 
 build:
   steps:
